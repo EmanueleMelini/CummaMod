@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "W": {
+      "item": "minecraft:cobblestone"
+    },
+    "R": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "pattern": [
+    "WR"
+  ],
+  "result": {
+    "item": "cummamod:plastic",
+    "count": 2
+  }
+}

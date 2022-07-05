@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "cummamod",
+  "version": "0.0.1",
+
+  "name": "CummaMod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Emanuele Melini"
+  ],
+  "contact": {
+    "homepage": "https://github.com/EmanueleMelini",
+    "sources": "https://github.com/EmanueleMelini"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/cummamod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "it.emanuelemelini.cummamod.CummaMod"
+    ]
+  },
+  "mixins": [
+    "cummamod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
